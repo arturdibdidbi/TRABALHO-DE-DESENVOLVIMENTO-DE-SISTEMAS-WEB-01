@@ -1,145 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carros de Homem</title>
-
-  <style>
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <div>
-      <img
-        src="/assets/macho-alfa.jpeg" 
-        alt="macho alfa fazendo coisas de macho alfa em um carro de macho alfa" 
-        decoding="async"
-        fetch-priority="high"
-      >
-
-      <h1>Carros de Homem Macho Másculo</h1>
-
-      <p>
-        Decidimos criar essa concessionária pois descobrimos que os carros 
-        modernos estavam acabando com a masculinidade.
-      </p>
-  
-      <p>
-        Então, se você está cansado de dirigir veículos que não fazem justiça 
-        ao seu estilo de vida viril, venha conhecer nossa seleção de máquinas 
-        que realmente representam o que é ser um homem macho e másculo de verdade. 
-        Aqui, você encontrará carros que não apenas te levam do ponto A ao 
-        ponto B, mas que também afirmam sua presença em qualquer estrada.
-      </p>
-    </div>
-
-    <div role="separator"></div>
-
-    <section>
-      <h2>Mais comprados</h2>
-
-      <ul>
-        <li>
-          <div>
-            <img 
-              src="/assets/macho-alfa.jpeg" 
-              alt="macho alfa fazendo coisas de macho alfa em um carro de macho alfa" 
-              decoding="async"
-              loading="lazy"
-            >
-
-            <h3>Carro 1</h3>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>devsuperior</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="content">
+        <nav>
+          <p class="brand">CARROS PARA<br><strong>HOMENS</strong></p>
+          <ul>
+            <li><a href="#catalog">CATÁLOGO</a></li>
+            <li><a href="#about">SOBRE</a></li>
+            <li><a href="#feature">NOVIDADES</a></li>
+            <button>ENTRAR</button>
+          </ul>
+        </nav>
+        <div class="header-block">
+          <div class="text">
+            <h2>RANGER RAPTOR</h2>
+            <p>
+              A Máquina Definitiva para Quem Não Tem Limites
+            </p>
           </div>
-        </li>
-    
-        <li>
-          <div>
-            <img 
-              src="/assets/macho.jpeg" 
-              alt="macho fazendo coisas de macho em um carro de macho" 
-              decoding="async" 
-              loading="lazy"
-            >
-
-            <h3>Carro 2</h3>
+          <img src="images/car-header.png" alt="Car" />
+        </div>
+      </div>
+    </header>
+    <section class="catalog" id="catalog">
+      <div class="content">
+        <div class="title-wrapper-catalog">
+          <p>Find what you want</p>
+          <h3>Catalog</h3>
+        </div>
+        <div class="filter-card">
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Choose your favorite model"
+          />
+          <button class="search-button">Search</button>
+        </div>
+        <div class="card-wrapper">
+          <div class="card-item">
+            <img src="images/car-card.png" alt="Car" />
+            <div class="card-content">
+              <h3>Audi Supra TT</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus.
+              </p>
+              <button type="button">I want this!</button>
+            </div>
           </div>
-        </li>
-
-        <li>
-          <div>
-            <img 
-              src="/assets/macho.jpeg" 
-              alt="macho alfa fazendo coisas de macho alfa em um carro de macho alfa" 
-              decoding="async" 
-              loading="lazy"
-            >
-          
-            <h3>Carro 3</h3>
+          <div class="card-item">
+            <img src="images/car-card.png" alt="Car" />
+            <div class="card-content">
+              <h3>Audi Supra TT</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus.
+              </p>
+              <button type="button">I want this!</button>
+            </div>
           </div>
-        </li>
-      </ul>
+          <div class="card-item">
+            <img src="images/car-card.png" alt="Car" />
+            <div class="card-content">
+              <h3>Audi Supra TT</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus.
+              </p>
+              <button type="button">I want this!</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="images/car-card.png" alt="Car" />
+            <div class="card-content">
+              <h3>Audi Supra TT</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus.
+              </p>
+              <button type="button">I want this!</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="images/car-card.png" alt="Car" />
+            <div class="card-content">
+              <h3>Audi Supra TT</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus.
+              </p>
+              <button type="button">I want this!</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="images/car-card.png" alt="Car" />
+            <div class="card-content">
+              <h3>Audi Supra TT</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus.
+              </p>
+              <button type="button">I want this!</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="images/car-card.png" alt="Car" />
+            <div class="card-content">
+              <h3>Audi Supra TT</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus.
+              </p>
+              <button type="button">I want this!</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="images/car-card.png" alt="Car" />
+            <div class="card-content">
+              <h3>Audi Supra TT</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus.
+              </p>
+              <button type="button">I want this!</button>
+            </div>
+          </div>
+          <div class="card-item">
+            <img src="images/car-card.png" alt="Car" />
+            <div class="card-content">
+              <h3>Audi Supra TT</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus.
+              </p>
+              <button type="button">I want this!</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Compre agora</h2>
-
-      <table>
-        <thead>
-          <tr>
-            <th>Carro</th>
-            <th>Preço Aproximado</th>
-            <th>Descrição</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Ranger Raptor</td>
-            <td>R$ 300.000</td>
-            <td>Off-road potente</td>
-          </tr>
-          <tr>
-            <td>Dodge Challenger</td>
-            <td>R$ 250.000</td>
-            <td>Muscle car icônico</td>
-          </tr>
-          <tr>
-            <td>Camaro</td>
-            <td>R$ 220.000</td>
-            <td>Desempenho esportivo</td>
-          </tr>
-          <tr>
-            <td>BMW 330i</td>
-            <td>R$ 270.000</td>
-            <td>Luxo e esportivo</td>
-          </tr>
-          <tr>
-            <td>BMW 340i</td>
-            <td>R$ 320.000</td>
-            <td>Mais potência</td>
-          </tr>
-          <tr>
-            <td>Opala</td>
-            <td>R$ 60.000</td>
-            <td>Clássico brasileiro</td>
-          </tr>
-          <tr>
-            <td>Maverick GT</td>
-            <td>R$ 80.000</td>
-            <td>Clássico esportivo</td>
-          </tr>
-          <tr>
-            <td>Mustang</td>
-            <td>R$ 280.000</td>
-            <td>Performance pura</td>
-          </tr>
-        </tbody>
-      </table>      
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title-wrapper-about">
+          <p>Know about us</p>
+          <h3>About</h3>
+        </div>
+        <div class="about-content">
+          <div class="left">
+            <img src="images/about.png" alt="About" />
+          </div>
+          <div class="right">
+            <h3>Join technology and mobility</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae ut inventore magni repellendus ab ad itaque facere. A
+              tenetur quam, nobis tempore illum laborum ipsa fuga, itaque
+              possimus repellat ad perspiciatis, velit reiciendis eos facilis
+              sapiente blanditiis quas officia hic beatae quibusdam! Quod
+              eligendi porro possimus voluptatum ad ipsum sapiente soluta,
+              maiores nobis tenetur adipisci officiis nisi illum quae natus
+              nostrum tempora accusantium blanditiis? Rem nesciunt illum
+              dolorum, perferendis quos consequatur suscipit cumque fugiat alias
+              sint repellat qui adipisci error est distinctio doloribus labore
+              sunt modi eos odio quibusdam dicta. Dignissimos voluptate illum
+              possimus quo. Ducimus repellat doloribus quisquam quidem?
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-  </main>
-</body>
+
+    <section class="features" id="features">
+      <div class="content">
+        <div class="title-wrapper-features">
+          <p>What you can do</p>
+          <h3>Features</h3>
+        </div>
+        <div class="feature-card-block">
+          <div class="feature-card-item">
+            <img src="images/feature-planet.png" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="feature-card-item">
+            <img src="images/feature-planet.png" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="feature-card-item">
+            <img src="images/feature-planet.png" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="feature-card-item">
+            <img src="images/feature-planet.png" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="feature-card-item">
+            <img src="images/feature-planet.png" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="feature-card-item">
+            <img src="images/feature-planet.png" alt="Feature" />
+            <div class="feature-text-content">
+              <h3>Title</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="main">
+        <div class="content footer-links">
+          <div class="footer-company">
+            <h4>Company</h4>
+            <h6>About</h6>
+            <h6>Contact</h6>
+          </div>
+          <div class="footer-rental">
+            <h4>Rental</h4>
+            <h6>Self-Drive</h6>
+            <h6>Chauffer-Driven</h6>
+            <h6>Help</h6>
+          </div>
+          <div class="footer-social">
+            <h4>Stay connected</h4>
+            <div class="social-icons">
+              <img src="images/instagram.png" alt="Instagram" />
+              <img src="images/facebook.png" alt="Facebook" />
+            </div>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact US</h4>
+            <h6>+55 31 988776655</h6>
+            <h6>contato@devsuperior.com.br</h6>
+            <h6>Nome da Rua, belo horizonte MG</h6>
+          </div>
+        </div>
+      </div>
+      <div class="last">DevSuperior 2021 - Use like you want</div>
+    </footer>
+  </body>
 </html>
