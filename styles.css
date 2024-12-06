@@ -137,14 +137,14 @@ ul li {
   margin-top: 150px;
 }
 
-.get-notified {
+.pre-launch {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
 }
 
-.get-notified__title {
+.pre-launch__title {
   font-size: 1.25rem;
   color: var(--gray);
 }
