@@ -12,243 +12,80 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <div class="content">
-        <nav>
-          <p class="brand">CARROS PARA<br><strong>HOMENS</strong></p>
-          <ul>
-            <li><a href="#catalog">CATÁLOGO</a></li>
-            <li><a href="#about">SOBRE</a></li>
-            <li><a href="#feature">NOVIDADES</a></li>
-            <button>ENTRAR</button>
-          </ul>
-        </nav>
-        <div class="header-block">
-          <div class="text">
-            <h2>RANGER RAPTOR</h2>
-            <p>
-              A Máquina Definitiva para Quem Não Tem Limites
+    <header class="header">
+      <div class="container">
+        <div class="header__bar">
+          <h1 class="header__brand">
+            CARROS PARA<br>
+            <strong>HOMENS</strong>
+          </h1>
+
+          <nav class="header__navbar">
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__link" href="#catalog">
+                  CATÁLOGO
+                </a>
+              </li>
+
+              <li class="header__item">
+                <a class="header__link" href="#about">
+                  SOBRE
+                </a>
+              </li>
+
+              <li class="header__item">
+                <a class="header__link" href="#feature">
+                  NOVIDADES
+                </a>
+              </li>
+              
+              <li class="header__item">
+                <button class="header__login">ENTRAR</button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header__featured">
+          <div class="header__featured-info">
+            <h2 class="header__featured-title">
+              RANGER RAPTOR
+            </h2>
+
+            <p class="header__featured-slogan">
+              A Máquina Definitiva para Quem Não Tem Limites.
             </p>
           </div>
-          <img src="assets/ranger.png" alt="RANGER" />
+
+          <img 
+            class="header__featured-image"
+            src="assets/ranger.png" 
+            alt="RANGER"
+            decoding="async"
+            fetchPriority="high" 
+          />
         </div>
       </div>
     </header>
-    <section class="catalog" id="catalog">
-      <div class="content">
-        <div class="title-wrapper-catalog">
-          <h3>CATÁLOGO</h3>
-        </div>
-        <div class="filter-card">
-          <input
-            type="text"
-            class="search-input"
-            placeholder="ENCONTRE SEU CARRO DOS SONHOS"
-          />
-          <button class="search-button">PESQUISE</button>
-        </div>
-        <div class="card-wrapper">
-          <div class="card-item">
-            <img src="assets/camaro-ss.jpeg" alt="CAMARO" />
-            <div class="card-content">
-              <h3>CAMARO SS</h3>
-              <p>
-                O Chevrolet Camaro SS é muito mais que um carro esportivo, ele é um verdadeiro ícone da performance. 
-                Com um design inconfundível e um motor potencialmente bruto.
-              </p>
-              <button type="button">EU QUERO!</button>
-            </div>
-          </div>
-          <div class="card-item">
-            <img src="assets/ranger.jpeg" alt="RANGER" />
-            <div class="card-content">
-              <h3>RANGER RAPTOR</h3>
-              <p>
-                A Ranger Raptor não é apenas uma picape. Ela é a tradução de força, resistência e tecnologia.
-                 Seja nas ruas da cidade ou nas trilhas mais selvagens, 
-                 você estará pilotando uma máquina que impõe respeito e entrega emoção em cada quilômetro.
-              </p>
-              <button type="button">EU QUERO!</button>
-            </div>
-          </div>
-          <div class="card-item">
-            <img src="assets/dodg-challenger.jpeg" alt="CHALLENGER" />
-            <div class="card-content">
-              <h3>CHALLENGER</h3>
-              <p>
-                O Dodge Challenger não é apenas um carro, é uma lenda viva sobre rodas. 
-                Com uma herança dos clássicos muscle cars americanos, 
-                o Challenger é a combinação perfeita de desempenho bruto, design intimidador e tecnologia moderna. 
-              </p>
-              <button type="button">EU QUERO!</button>
-            </div>
-          </div>
-          <div class="card-item">
-            <img src="assets/maverick.jpeg" alt="OPALA" />
-            <div class="card-content">
-              <h3>OPALA</h3>
-              <p>
-                O Chevrolet Opala é mais do que apenas um carro, ele é um símbolo de uma era, 
-                uma verdadeira lenda das estradas brasileiras.
-              </p>
-              <button type="button">EU QUERO!</button>
-            </div>
-          </div>
-          <div class="card-item">
-            <img src="assets/mustang.jpeg" alt="MUSTANG" />
-            <div class="card-content">
-              <h3>MUSTANG</h3>
-              <p>
-                O Ford Mustang é o carro que definiu o conceito de "muscle car" e continua a ser sinônimo de potência, liberdade e estilo. 
-                Desde sua estreia nos anos 60,
-                 o Mustang se destacou por sua combinação inigualável de design agressivo e desempenho avassalador.
-              </p>
-              <button type="button">EU QUERO!</button>
-            </div>
-          </div>
-          <div class="card-item">
-            <img src="assets/maverick-gt.jpeg" alt="MAVERICK_GT" />
-            <div class="card-content">
-              <h3>MAVERICK GT</h3>
-              <p>
-                Prepare-se para uma experiência de condução inigualável com o icônico Ford Mustang, 
-                um verdadeiro símbolo de desempenho e estilo. 
-                Com o Mustang, cada jornada é uma aventura emocionante.
-              </p>
-              <button type="button">EU QUERO!</button>
-            </div>
-          </div>
-          <div class="card-item">
-            <img src="assets/bmw.jpeg" alt="BMW_340I" />
-            <div class="card-content">
-              <h3>BMW 340i</h3>
-              <p>
-                Descubra o novo BMW 340i, um ícone de desempenho e sofisticação que leva a experiência de dirigir a um novo patamar. 
-                Combinando potência, tecnologia e um design inconfundível, o 340i é o carro que você sempre sonhou.
-              </p>
-              <button type="button">EU QUERO!</button>
-            </div>
-          </div>
-          <div class="card-item">
-            <img src="assets/audittrs.jpeg" alt="AUDI_TTRS" />
-            <div class="card-content">
-              <h3>Audi TTRS</h3>
-              <p>
-                Prepare-se para uma experiência de condução incomparável com o Audi TT RS, o verdadeiro ícone da performance esportiva. 
-                Combinando tecnologia de ponta, design impressionante e uma potência emocionante.
-              </p>
-              <button type="button">EU QUERO!</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="about" id="about">
-      <div class="content">
-        <div class="title-wrapper-about">
-          <p>CONHEÇA-NOS</p>
-        </div>
-        <div class="about-content">
-          <div class="left">
-            <img src="assets/davi-playboy.jpg" alt="DAVI_PLAYBOY" />
-          </div>
-          <div class="right">
-            <h3>QUAL É O PRINCIPAL OBJETIVO DO NOSSO PROJETO?</h3>
-            <p>
-              Na Concessionária CARROS DE HOMEM, nossa missão é redefinir a
-              experiência de compra de veículos, oferecendo um atendimento 
-              personalizado e uma seleção incomparável de automóveis de alta 
-              qualidade. Desde o momento em que você entra em nossa 
-              concessionária, nosso objetivo é fazer com que você se sinta 
-              valorizado e confiante em cada etapa do processo de compra.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <main class="container main">
+      <section class="get-notified">
+        <h2 class="get-notified__title">RECEBA UM EMAIL QUANDO LANÇARMOS</h2>
 
-    <section class="features" id="features">
-      <div class="content">
-        <div class="title-wrapper-features">
-          <p>CARACTERÍSTICAS</p>
-        </div>
-        <div class="feature-card-block">
-          <div class="feature-card-item">
-            <img src="images/feature-planet.png" alt="Feature" />
-            <div class="feature-text-content">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div class="feature-card-item">
-            <img src="images/feature-planet.png" alt="Feature" />
-            <div class="feature-text-content">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div class="feature-card-item">
-            <img src="images/feature-planet.png" alt="Feature" />
-            <div class="feature-text-content">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div class="feature-card-item">
-            <img src="images/feature-planet.png" alt="Feature" />
-            <div class="feature-text-content">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div class="feature-card-item">
-            <img src="images/feature-planet.png" alt="Feature" />
-            <div class="feature-text-content">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div class="feature-card-item">
-            <img src="images/feature-planet.png" alt="Feature" />
-            <div class="feature-text-content">
-              <h3>Title</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        <form id="form" class="form">
+          <label for="email">
+            <input class="form__input" type="email" id="email">
+          </label>
 
-    <footer>
-      <div class="main">
-        <div class="content footer-links">
-          <div class="footer-company">
-            <h4>COMPANHIA</h4>
-            <h6>SOBRE</h6>
-            <h6>CONTATOS</h6>
-          </div>
-          <div class="footer-rental">
-            <h4>SUPORTE</h4>
-            <h6>TESTE-DRIVE</h6>
-            <h6>AJUDA</h6>
-          </div>
-          <div class="footer-social">
-            <h4>CONTEÚDO</h4>
-            <div class="social-icons">
-              <img src="images/instagram.png" alt="INSTAGRAM" />
-              <img src="images/facebook.png" alt="FACEBOOK" />
-            </div>
-          </div>
-          <div class="footer-contact">
-            <h4>CONTATE-NOS</h4>
-            <h6>+55 81 981234567</h6>
-            <h6>aac10@dicente.edu.br</h6>
-            <h6>AVENIDA BRASIL, PAULISTA</h6>
-          </div>
-        </div>
-      </div>
-      <div class="last">ARTUR, DAVI E DÉBORA - 2024</div>
-    </footer>
+          <button 
+            class="form__submit-button"
+            type="submit"
+          >
+            SE INSCREVER
+          </button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
